@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="outerbox">
+  <div class="upper">
+    <div class="titles">
+      <h2 class="title">DAY</h2>
+      <h2 class="title">MONTH</h2>
+      <h2 class="title">YEAR</h2>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="DD" name="info" id="DD">
+    
+        <input type="text" placeholder="MM" name="info" id="MM">
+    
+        <input type="text" placeholder="YY" name="info" id="YY">
+    
+    </div>
+    <div class="error">
+      <p id="error1"></p>
+      <p id="error2"></p>
+      <p id="error3"></p>
+    </div>
+  </div>
+    
+    <div class="innerbox">
+      <button class="btn" id="btn1" type="submit"></button>
+      <h1 class="cNum">
+        <span id="cYY">--</span> years
+      </h1>
+      <h1 class="cNum">
+        <span id="cMM">--</span> months
+      </h1>
+      <h1 class="cNum">
+        <span id="cDD">--</span> days
+      </h1>
+    </div>
+    
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Vetrivel-bot">Vetrivel S</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
